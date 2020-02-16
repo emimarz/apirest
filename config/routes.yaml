@@ -1,0 +1,13 @@
+index:
+    path: /
+    controller: App\Controller\CategoryController:cgetAction
+
+api_category:
+  type:     rest
+  resource: App\Controller\CategoryController
+  prefix:   /api/v1
+
+api_product:
+  type:     rest
+  resource: App\Controller\ProductController
+  prefix:   /api/v1
